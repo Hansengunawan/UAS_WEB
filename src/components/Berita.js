@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Group1 from '../images/Group1.png'
 
-function News() {
+const News = () =>  {
     return (
         <div>
             <h3 className="d-flex justify-content-center fw-bold">Berita Terkini</h3>

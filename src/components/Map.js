@@ -1,30 +1,54 @@
-// import {
-//     MDBRow,
-//     MDBCol,
-//     MDBInput,
-//     MDBTextArea,
-//     MDBBtn,
-// } from "mdb-react-ui-kit";
+import React from "react";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+import "../style/Map.css"; // Custom CSS for the map container
 
-// const Maps = () => {
-//     return (
-//         <section className="border text-center mb-4">
-//         <h3 className="mb-5">Contact us</h3>
-//         <div className="row">
-//             <div className="col-lg-5">
-//             <iframe
-//                 title="MAPS"
-//                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12094.57348593182!2d-74.00599512526003!3d40.72586666928451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f988156a9%3A0xd54629bdf9d61d68!2sBroadway-Lafayette%20St!5e0!3m2!1spl!2spl!4v1624523797308!5m2!1spl!2spl"
-//                 className="h-100 w-100"
-//                 style={{ border: "0" }}
-//                 loading="lazy"
-//             ></iframe>
-//             </div>
-//             <div className="col-lg-7">
-//             </div>
-//         </div>
-//         </section>
-//     );
-// };
+// Fix the default marker icon issue with React Leaflet
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+    iconRetinaUrl:
+        "https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png",
+    iconUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png",
+    shadowUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png",
+    });
 
-// export default Maps;
+    const MapComponent = () => {
+    return (
+        <Container
+        className="d-flex justify-content-center align-items-center"
+        >
+        <Row>
+            <Col>
+            <Card className="p-4 border-0">
+                <Card.Body>
+                <Card.Title
+                    className="text-center mb-4"
+                    style={{ fontWeight: "bold" }}
+                >
+                    Map
+                </Card.Title>
+                <MapContainer
+                    center={[-6.2088, 106.8456]}
+                    zoom={12}
+                    scrollWheelZoom={false}
+                    className="map-container"
+                >
+                    <TileLayer
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    />
+                    <Marker position={[-6.2088, 106.8456]}>
+                    <Popup>Jakarta, Indonesia</Popup>
+                    </Marker>
+                </MapContainer>
+                </Card.Body>
+            </Card>
+            </Col>
+        </Row>
+        </Container>
+    );
+};
+
+export default MapComponent;

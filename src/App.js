@@ -5,9 +5,9 @@ import Header from './components/Header'
 import LandingPage from './components/LandingPageUser'
 import TextUser from './components/TextUser'
 import News from './components/Berita'
-// import Maps from './components/Map'
 import FormUser from './components/FormUser'
 import Login from './components/Login'
+import MapComponent from './components/Map'
 
 // import Hero from './components/Hero';
 // import VisionMission from './components/VisionMission';
@@ -33,9 +33,9 @@ function App() {
       <div>
         <News />
       </div>
-      {/* <div>
-        <Maps />
-      </div> */}
+      <div>
+        <MapComponent />
+      </div>
       <div>
         <FormUser />
       </div>
