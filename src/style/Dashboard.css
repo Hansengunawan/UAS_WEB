@@ -1,0 +1,32 @@
+.dashboard {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.table thead th {
+    text-align: center;
+}
+
+.table tbody td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.nav-link.active {
+    background-color: #17a2b8;
+}

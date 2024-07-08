@@ -4,7 +4,7 @@ import '../style/FormUser.css';
 
 function FormUser() {
     return (
-        <div>
+        <div className="my-4">
             <h3 className="d-flex fw-bold justify-content-center">Form Lapor Insiden</h3>
             <h3 className="d-flex fw-bold justify-content-center">_</h3>
             <Form className="m-5 px-5">

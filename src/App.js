@@ -8,6 +8,8 @@ import News from './components/Berita'
 import FormUser from './components/FormUser'
 import Login from './components/Login'
 import MapComponent from './components/Map'
+import NewsLayout from './components/DetailBerita'
+// import Dashboard from './components/DashboardAdmin'
 
 // import Hero from './components/Hero';
 // import VisionMission from './components/VisionMission';
@@ -45,6 +47,13 @@ function App() {
         <Login/>
       </div>
 
+      <div>
+        <NewsLayout/>
+      </div>
+
+      {/* <div>
+        <Dashboard/>
+      </div> */}
 
     </div>
   );

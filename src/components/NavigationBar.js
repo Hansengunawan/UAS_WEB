@@ -1,9 +1,10 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
+import '../style/Navbar.css'
 
 
 const NavigationBar = () => {
     return (
-    <div className="font">
+    <div className="nav_bc">
     <Navbar >
         <Container>
             <Navbar.Brand href="/" className="text-dark p-2">Logo</Navbar.Brand>
