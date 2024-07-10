@@ -7,9 +7,9 @@ import {
     Form,
     Button,
 } from "react-bootstrap";
-import "../style/DetailNews.css"; // Import custom CSS for additional styling
-import Navbar from './NavigationBar'
-import Group1 from '../images/Group1.png'
+import "../../style/DetailNews.css"; // Import custom CSS for additional styling
+import Navbar from '../Navbar/NavigationBar'
+import Group1 from '../../images/Group1.png'
 
 const NewsLayout = () => {
     return (

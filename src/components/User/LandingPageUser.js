@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Group1 from "../images/Group1.png";
+import Group1 from "../../images/Group1.png";
 
 function LandingPage() {
     return (

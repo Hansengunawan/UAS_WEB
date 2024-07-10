@@ -1,5 +1,5 @@
 import { Form, Button, Card, Container, Row, Col } from 'react-bootstrap';
-import '../style/Login.css'
+import '../../style/Login.css' 
 
 const Login = () =>  {
     return (

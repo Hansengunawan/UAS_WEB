@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import Group1 from '../images/Group1.png'
+import Group1 from '../../images/Group1.png'
+import { Outlet } from "react-router-dom";
 
 const News = () =>  {
     return (
@@ -21,7 +22,7 @@ const News = () =>  {
                 </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                <small className="text-muted">Baca Selengkapnya -></small>
+                        <small > <a to="{/detail-berita}" href="/detail-berita">.</a>Baca Selengkapnya -></small>
                 </Card.Footer>
             </Card>
             <Card>

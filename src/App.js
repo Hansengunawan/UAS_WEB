@@ -1,30 +1,22 @@
 import React from 'react';
 import './App.css';
-import NavigationBar from './components/NavigationBar';
-import Header from './components/Header'
-import LandingPage from './components/LandingPageUser'
-import TextUser from './components/TextUser'
-import News from './components/Berita'
-import FormUser from './components/FormUser'
-import Login from './components/Login'
-import MapComponent from './components/Map'
-import NewsLayout from './components/DetailBerita'
-// import Dashboard from './components/DashboardAdmin'
+// import Header from './components/Navbar/Header'
+// import LandingPage from './components/User/LandingPageUser'
+// import TextUser from './components/User/TextUser'
+// import News from './components/User/Berita'
+// import FormUser from './components/User/FormUser'
+// import MapComponent from './components/User/Map'
+// import NavbarRoute from './Router/Router'
+import Dashboard from './components/Admin/DashboardAdmin'
 
-// import Hero from './components/Hero';
-// import VisionMission from './components/VisionMission';
-// import Footer from './components/Footer';
-
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-
-      <div>
-        <Header  />
+      {/* <div>
+        <Header/>
       </div>
       <div>
-        <NavigationBar  />
+        <NavbarRoute/>
       </div>
       <div>
         <LandingPage />
@@ -40,23 +32,14 @@ function App() {
       </div>
       <div>
         <FormUser />
-      </div>
-
-
-      <div>
-        <Login/>
-      </div>
-
-      <div>
-        <NewsLayout/>
-      </div>
-
-      {/* <div>
-        <Dashboard/>
       </div> */}
-
+      <div>
+        <Dashboard/>
+      </div>
     </div>
   );
 }
+
+
 
 export default App;

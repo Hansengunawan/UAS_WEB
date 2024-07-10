@@ -1,4 +1,4 @@
-import '../style/text.css'
+import '../../style/text.css'
 
 
 function TextUser() {

@@ -8,7 +8,7 @@ import {
     Table,
     Button,
 } from "react-bootstrap";
-import "../style/Dashboard.css"; // Import custom CSS for additional styling
+import "../../style/Dashboard.css"; // Import custom CSS for additional styling
 
 const Dashboard = () => {
     return (

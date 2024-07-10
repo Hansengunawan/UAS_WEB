@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import "../style/Map.css"; // Custom CSS for the map container
+import "../../style/Map.css"; // Custom CSS for the map container
 
 // Fix the default marker icon issue with React Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
