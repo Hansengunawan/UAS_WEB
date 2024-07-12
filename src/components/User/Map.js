@@ -31,7 +31,7 @@ L.Icon.Default.mergeOptions({
                 </Card.Title>
                 <MapContainer
                     center={[-6.2088, 106.8456]}
-                    zoom={12}
+                    zoom={13}
                     scrollWheelZoom={false}
                     className="map-container"
                 >
@@ -41,6 +41,38 @@ L.Icon.Default.mergeOptions({
                     />
                     <Marker position={[-6.2088, 106.8456]}>
                     <Popup>Jakarta, Indonesia</Popup>
+                    </Marker>
+                    <Marker position={[-6.2088, 106.8352]}>
+                    </Marker>
+                    <Marker position={[-6.2088, 106.873]}>
+                    </Marker>
+                    <Marker position={[-6.1888, 106.834]}>
+                    </Marker>
+                    <Marker position={[-6.1888, 106.875]}>
+                    </Marker>
+                    <Marker position={[-6.1888, 106.82]}>
+                    </Marker>
+                    <Marker position={[-6.1888, 106.837]}>
+                    </Marker>
+                    <Marker position={[-6.1888, 106.828]}>
+                    </Marker>
+                    <Marker position={[-6.2088, 106.853]}>
+                    </Marker>
+                    <Marker position={[-6.2188, 106.853]}>
+                    </Marker>
+                    <Marker position={[-6.1988, 106.83]}>
+                    </Marker>
+                    <Marker position={[-6.1988, 106.853]}>
+                    </Marker>
+                    <Marker position={[-6.1988, 106.883]}>
+                    </Marker>
+                    <Marker position={[-6.1988, 106.80]}>
+                    </Marker>
+                    <Marker position={[-6.1988, 106.9]}>
+                    </Marker>
+                    <Marker position={[-6.1988, 106.82]}>
+                    </Marker>
+                    <Marker position={[-6.1998, 106.85]}>
                     </Marker>
                 </MapContainer>
                 </Card.Body>

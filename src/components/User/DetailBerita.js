@@ -34,10 +34,13 @@ const NewsLayout = () => {
                     JUDUL BERITA
                     </Card.Title>
                     <Card.Text>
-                    ullamcorper nunc sed aliquam consectetur maecenas. Elementum
-                    dictum enim in amet ornare. Nec quisque eleifend mauris
-                    viverra. Accumsan feugiat pulvinar aliquet interdum. Lorem
-                    ipsum dolor sit amet consectetur.
+                    DEMAK, KOMPAS.com - Sebuah truk dump tertabrak kendaraan lain hingga terguling saat putar arah di Pantura Kecamatan Gajah, Kabupaten Demak, Jawa Tengah (Jateng) pada Jumat (12/7/2024) pukul 5.30 WIB.  Kasatlantas Polres Demak, AKP Lingga Ramadhani menerangkan, insiden tersebut melibatkan truk dump bernomor Polisi H 1932 KE yang dikemudikan BT (64) dan truk wing box No Pol B 9819 TEZ yang dikemudikan AB (46). Baca juga: Truk Tabrak Truk di Bawen Tewaskan 1 Orang, Warga: Dari Atas Kencang, lalu Bres Kejadian bermula saat truk dump yang bermuatan pasir berjalan dari arah Semarang menuju Kudus. Sesampainya di Pantura Desa Gajah, Kecamatan Gajah, truk putar arah dan tertabrak truk wingbox dari Kudus menuju Semarang. "Di TKP diduga berjalan kurang hati-hati pada saat putar arah, sehingga tertabrak truk wing box," ujar Lingga melalui pesan tertulis yang diterima Kompas.com, Jumat (12/7/2024). Pantauan Kompas.com di lokasi, truk wingbox juga sempat menabrak bagian depan rumah warga yang berada di tepi jalan raya. Dilempari Batu dan Molotov, ”Tugboat” Batubara Terbakar di Sungai Batanghari Artikel Kompas.id Atas kejadian itu, Pantura Demak sempat mengalami kemacetan beberapa saat lantaran truk dump terguling melintang di jalan. Lingga menambahkan, tidak ada korban jiwa dalam kecelakaan dua truk yang dikemudikan BT dan AB. "Laka lantas material, nihil korban," tukas Lingga.
+
+Artikel ini telah tayang di Kompas.com dengan judul "Putar Arah Sembarangan, Truk Pasir Ditabrak Truk Boks hingga Terguling di Pantura Demak", Klik untuk baca: https://regional.kompas.com/read/2024/07/12/142518578/putar-arah-sembarangan-truk-pasir-ditabrak-truk-boks-hingga-terguling-di.
+
+
+Kompascom+ baca berita tanpa iklan: https://kmp.im/plus6
+Download aplikasi: https://kmp.im/app6
                     </Card.Text>
                     <Card.Text>
                     City Rescue merupakan Lorem ipsum dolor sit amet consectetur.

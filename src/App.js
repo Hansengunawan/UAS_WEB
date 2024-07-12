@@ -1,22 +1,24 @@
 import React from 'react';
 import './App.css';
-// import Header from './components/Navbar/Header'
-// import LandingPage from './components/User/LandingPageUser'
-// import TextUser from './components/User/TextUser'
-// import News from './components/User/Berita'
-// import FormUser from './components/User/FormUser'
-// import MapComponent from './components/User/Map'
-// import NavbarRoute from './Router/Router'
-import Dashboard from './components/Admin/DashboardAdmin'
+import Header from './components/Navbar/Header'
+import LandingPage from './components/User/LandingPageUser'
+import TextUser from './components/User/TextUser'
+import News from './components/User/Berita'
+import FormUser from './components/User/FormUser'
+import MapComponent from './components/User/Map'
+import NavigationBar from './components/Navbar/NavigationBar';
+
+
+// import Dashboard from './components/Admin/DashboardAdmin'
 
 const App = () => {
   return (
     <div className="App">
-      {/* <div>
+      <div>
         <Header/>
       </div>
       <div>
-        <NavbarRoute/>
+        <NavigationBar/>
       </div>
       <div>
         <LandingPage />
@@ -32,10 +34,10 @@ const App = () => {
       </div>
       <div>
         <FormUser />
-      </div> */}
-      <div>
-        <Dashboard/>
       </div>
+      {/* <div>
+        <Dashboard/>
+      </div> */}
     </div>
   );
 }

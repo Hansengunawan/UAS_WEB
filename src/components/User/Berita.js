@@ -1,7 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import Group1 from '../../images/Group1.png'
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
+import truk from '../../images/truk.jpg'
+import cianjur from '../../images/cianjur.jpg'
+import spd_mtr from '../../images/spd_mtr.jpg'
 
 const News = () =>  {
     return (
@@ -9,46 +11,37 @@ const News = () =>  {
             <h3 className="d-flex justify-content-center fw-bold">Berita Terkini</h3>
             <h1 className="d-flex justify-content-center" >_</h1>
 
-            <CardGroup className="mx-5 my-5 px-5">
-            <Card>
-                <Card.Img variant="top" src={Group1} />
+            <CardGroup className="mx-5 my-5 px-5 gap-2">
+            <Card className="shadow-sm border-2">
+                <Card.Img variant="top" src={truk} />
                 <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Truk Pasir Ditabrak Truk Boks hingga Terguling di Pantura Demak</Card.Title>
                 <Card.Text>
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                    Sebuah truk dump tertabrak kendaraan lain hingga terguling saat putar arah di Pantura Kecamatan Gajah, Kabupaten Demak, Jawa Tengah (Jateng) pada Jumat (12/7/2024) pukul 5.30 WIB. 
                 </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                        <small > <a to="{/detail-berita}" href="/detail-berita">.</a>Baca Selengkapnya -></small>
+                        <small >Baca Selengkapnya -></small>
                 </Card.Footer>
             </Card>
-            <Card>
-                <Card.Img variant="top" src={Group1} />
+            <Card className="shadow-sm border-2">
+                <Card.Img variant="top" src={cianjur} />
                 <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Rem Blong, Truk Tabrak Mobil dan Motor di Cianjur, 1 Tewas</Card.Title>
                 <Card.Text>
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                    Tabrakan yang melibatkan truk, mobil, dan sepeda motor itu dipicu truk yang kehilangan kendali saat melaju dari arah Sukabumi menuju Cianjur.
                 </Card.Text>
                 </Card.Body>
                 <Card.Footer>
                 <small className="text-muted">Baca Selengkapnya -></small>
                 </Card.Footer>
             </Card>
-            <Card>
-                <Card.Img variant="top" src={Group1} />
+            <Card className="shadow-sm border-2">
+                <Card.Img variant="top" src={spd_mtr} />
                 <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Kronologi Kecelakaan 2 Sepeda Motor di Tajur Bogor yang Akibatkan 1 Orang Tewas di Lokasi</Card.Title>
                 <Card.Text>
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
+                Pengendara kendaraan sepeda motor Kawasaki KLX dengan nomor polisi F 5427 FHG berinisial MH (26) meninggal dunia,” ujar Kasat Lantas Polresta Bogor Kota Kompol Ardi Wibowo saat dikonfirmasi, Kamis (11/7/2024).
                 </Card.Text>
                 </Card.Body>
                 <Card.Footer>
