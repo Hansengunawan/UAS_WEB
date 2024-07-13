@@ -1,8 +1,12 @@
 import { Form, Button, Card, Container, Row, Col } from 'react-bootstrap';
 import '../../style/Login.css' 
+import NavigationBar from '../Navbar/NavigationBar'
 
 const Login = () =>  {
     return (
+        <div>
+        <NavigationBar/>
+
         <Container
         className="d-flex justify-content-center align-items-center"
         style={{ minHeight: "100vh" }}
@@ -34,6 +38,7 @@ const Login = () =>  {
             </Col>
         </Row>
         </Container>
+        </div>
     );
 }
 

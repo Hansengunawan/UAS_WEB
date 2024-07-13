@@ -4,51 +4,46 @@ import {
     Row,
     Col,
     Nav,
-    Navbar,
     Table,
     Button,
 } from "react-bootstrap";
 import "../../style/Dashboard.css"; // Import custom CSS for additional styling
+import Logo from '../../images/logo.png'
+// import {Link, Routes, Route} from 'react-router-dom'
+// import LandingPage from '../User/LandingPageUser'
 
 const Dashboard = () => {
     return (
         <div className="dashboard">
-        <Navbar bg="light" expand="lg" className="px-4 shadow-sm">
-            <Navbar.Brand href="#">Dashboard Admin</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-                <Nav.Link href="#">Keluar</Nav.Link>
-            </Nav>
-            </Navbar.Collapse>
-        </Navbar>
-
         <Container fluid className="mt-4">
             <Row>
-            <Col md={2} className="bg-dark text-white sidebar">
+            <Col md={2} className="text-white sidebar">
                 <div className="py-4 text-center">
                 <img
-                    src="https://via.placeholder.com/50"
+                    src={Logo}
                     alt="Logo"
                     className="mb-3"
                 />
                 <h5>Dashboard Admin</h5>
                 </div>
                 <Nav defaultActiveKey="/" className="flex-column">
-                <Nav.Link href="#" className="text-white">
+                <Nav.Link  to="/" className="text-white">
                     Website
                 </Nav.Link>
                 <Nav.Link href="#" className="text-white">
                     User
                 </Nav.Link>
-                <Nav.Link href="#" className="text-white active">
+                <Nav.Link href="#" className="text-white">
                     Data Tables
+                </Nav.Link>
+                <Nav.Link href="#" className="text-white">
+                    Sign Out
                 </Nav.Link>
                 </Nav>
             </Col>
             <Col md={10} className="content">
                 <h2 className="mt-4">Data Tables</h2>
-                <Table striped bordered hover className="mt-4">
+                <Table striped bordered className="mt-4">
                 <thead>
                     <tr>
                     <th>No.</th>
@@ -82,7 +77,13 @@ const Dashboard = () => {
             </Col>
             </Row>
         </Container>
+        {/* <Routes>
+                <Route path="/" element={ <LandingPage/>}>
+                       
+                </Route>
+            </Routes> */}
         </div>
+
     );
 };
 

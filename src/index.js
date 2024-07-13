@@ -5,14 +5,27 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
-import {BrowserRouter} from 'react-router-dom'
+import Login from './components/Login/Login'
+import DataInsiden from './components/User/DataInsiden'
+import NewsLayout from './components/User/DetailBerita'
+import NewsLayout2 from './components/User/DetailBerita2'
+import NewsLayout3 from './components/User/DetailBerita3'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
+    <Routes>
+        <Route path="/" element={ <App /> }>
+        </Route>
+        <Route path="/data-insiden" element={ <DataInsiden/> }></Route>
+        <Route path="/login-admin" element={ <Login/> }></Route>
+        <Route path="/detail-berita" element={ <NewsLayout/> }></Route>
+        <Route path="/detail-berita2" element={ <NewsLayout2/> }></Route>
+        <Route path="/detail-berita3" element={ <NewsLayout3/> }></Route>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

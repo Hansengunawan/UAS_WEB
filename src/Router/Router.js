@@ -1,8 +1,8 @@
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // import NavigationBar from '../components/Navbar/NavigationBar';
-// import Login from '../components/Login/Login'
 // import LandingPage from '../components/User/LandingPageUser'
+// import TakeLogin from '../components/Pages/TakeLogina'
 
 // const router = createBrowserRouter([
 //     {
@@ -18,7 +18,7 @@
 //         },
 //         {
 //         path: "/login-admin",
-//         element: <Login />,
+//         element: <TakeLogin />,
 //         },
 //     ],
 //     },

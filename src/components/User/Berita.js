@@ -21,7 +21,7 @@ const News = () =>  {
                 </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                        <small >Baca Selengkapnya -></small>
+                        <small><a href="/detail-berita" className="text-decoration-none fw-bold text-dark">Baca Selengkapnya -></a></small>
                 </Card.Footer>
             </Card>
             <Card className="shadow-sm border-2">
@@ -33,7 +33,7 @@ const News = () =>  {
                 </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                <small className="text-muted">Baca Selengkapnya -></small>
+                <small><a href="/detail-berita2" className="text-decoration-none fw-bold text-dark">Baca Selengkapnya -></a></small>
                 </Card.Footer>
             </Card>
             <Card className="shadow-sm border-2">
@@ -45,7 +45,7 @@ const News = () =>  {
                 </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                <small className="text-muted">Baca Selengkapnya -></small>
+                <small><a href="/detail-berita3" className="text-decoration-none fw-bold text-dark">Baca Selengkapnya -></a></small>
                 </Card.Footer>
             </Card>
             </CardGroup>

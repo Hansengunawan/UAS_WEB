@@ -1,8 +1,21 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
 import '../../style/Header.css'
+import React, { useState, useEffect } from 'react';
 
 
 const Header = () => {
+
+    const [currentTime, setCurrentTime] = useState(new Date());
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+        setCurrentTime(new Date());
+        }, 1000); // update every 1 second
+        return () => {
+        clearInterval(timer);
+        };
+    }, []);
+
     return ( 
         <header className="App-header">
         <Navbar >
@@ -15,7 +28,7 @@ const Header = () => {
             </Nav>
                 <Nav className="gap-5" >
                     <Nav.Link href="/" className="text-light fw-bold"><i class="bi bi-telephone"></i><span className="mx-3">1-500-699</span></Nav.Link>
-                    <Nav.Link href="/" className="text-light fw-bold" ><i class="bi bi-calendar-event"></i><span className="mx-3">Senin, 1 Juli 2024</span>
+                    <Nav.Link href="/" className="text-light fw-bold" ><i class="bi bi-calendar-event"></i><span className="mx-3">{currentTime.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
                     </Nav.Link>
                 </Nav>
             </Container>

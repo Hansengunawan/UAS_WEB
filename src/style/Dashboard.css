@@ -11,10 +11,12 @@
     left: 0;
     width: 200px;
     padding-top: 20px;
+    background-color: #007F6D;
 }
 
+
 .content {
-    margin-left: 200px;
+    margin-left: 220px;
     padding: 20px;
 }
 
@@ -29,4 +31,9 @@
 
 .nav-link.active {
     background-color: #17a2b8;
+}
+
+img{
+    width: 75px;
+    height: 75px;
 }

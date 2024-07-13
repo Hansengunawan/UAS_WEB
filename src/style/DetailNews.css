@@ -1,12 +1,17 @@
 body {
     background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
 }
 
 .card-title {
     font-weight: bold;
 }
 
-.navbar-light .navbar-brand img {
-    width: 50px;
-    height: auto;
+.newsDetail img{
+    height: 450px;
+}
+
+.card-text{
+    text-align: justify;
 }
