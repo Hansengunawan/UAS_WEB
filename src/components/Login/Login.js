@@ -20,14 +20,14 @@ const Login = () =>  {
                 >
                     Login
                 </Card.Title>
-                <Form>
+                <Form method='POST' action='http://localhost:9000/auth'>
                     <Form.Group controlId="formUsername" className="mb-3">
                     <Form.Label>Username</Form.Label>
-                    <Form.Control className=" shadow-sm" type="text" placeholder="Enter username"/>
+                    <Form.Control className=" shadow-sm" type="text" name="username" placeholder="Enter username"/>
                     </Form.Group>
                     <Form.Group controlId="formPassword" className="mb-3">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control className="shadow-sm " type="password" placeholder="Password" />
+                    <Form.Control className="shadow-sm " type="password" name="password" placeholder="Password" />
                     </Form.Group>
                     <Button variant="success" type="submit" className="w-100 my-3 shadow-sm fw-bold">
                     Submit
