@@ -1,7 +1,12 @@
 .text{
     display: grid;
-    margin: 50px 120px;
+    padding: 50px 20px;
     text-align: justify;
     grid-gap :40px;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.text p{
+    margin: 0px 20px;
 }

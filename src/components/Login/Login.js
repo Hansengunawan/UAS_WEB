@@ -29,7 +29,7 @@ const Login = () =>  {
                     <Form.Label>Password</Form.Label>
                     <Form.Control className="shadow-sm " type="password" placeholder="Password" />
                     </Form.Group>
-                    <Button variant="success" type="submit" className="w-100 my-3 shadow-sm fw-bold">
+                    <Button variant="success" type="submit" className="w-100 my-3 shadow-sm fw-bold" href="/dashboard-admin">
                     Submit
                     </Button>
                 </Form>
