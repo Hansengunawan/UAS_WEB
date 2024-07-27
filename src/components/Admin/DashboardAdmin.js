@@ -24,10 +24,10 @@ const Dashboard = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    if (!isAdmin) {
-        return <redirect to='/'/>;
-    }
-    else {
+//    if (!isAdmin) {
+//        return <redirect to='/'/>;
+//    }
+//    else {
     return (
         <div className="dashboard">
         <Container fluid className="mt-4">
@@ -135,7 +135,7 @@ const Dashboard = () => {
             </div>
 
     );
-    }
+//    }
 };
 
 export default Dashboard;
