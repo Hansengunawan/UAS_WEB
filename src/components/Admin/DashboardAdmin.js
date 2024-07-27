@@ -11,7 +11,7 @@ import {
 } from "react-bootstrap";
 import "../../style/Dashboard.css"; // Import custom CSS for additional styling
 import Logo from '../../images/logo.png';
-import  { Link, Redirect } from 'react-router-dom';
+import  { Link, redirect } from 'react-router-dom';
 import Profile from '../../images/profile.png'
 // import {Link, Routes, Route} from 'react-router-dom'
 // import LandingPage from '../User/LandingPageUser'
@@ -25,7 +25,7 @@ const Dashboard = () => {
     const handleShow = () => setShow(true);
 
     if (!isAdmin) {
-        return <Redirect to='/'/>;
+        return <redirect to='/'/>;
     }
     else {
     return (
