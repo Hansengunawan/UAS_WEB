@@ -27,7 +27,7 @@ L.Icon.Default.mergeOptions({
                     className="text-center mb-4"
                     style={{ fontWeight: "bold" }}
                 >
-                    Map
+                    Peta Kecelakaan
                 </Card.Title>
                 <MapContainer
                     center={[-6.2088, 106.8456]}

@@ -3,6 +3,8 @@ import Group1 from "../../images/Group1.png";
 import Group2 from "../../images/Group2.jpg";
 import Group3 from "../../images/Group3.jpg";
 import '../../style/image.css'
+import {Button} from 'react-bootstrap';
+
 
 function LandingPage() {
     return (
@@ -14,6 +16,11 @@ function LandingPage() {
             src={Group1}
             alt="First slide"
             />
+            <Carousel.Caption>
+            <Button variant="success" type="submit" className="shadow-sm fw-bold px-5" href="/form-user">
+            +  Lapor Insiden
+            </Button>
+            </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img
@@ -21,6 +28,11 @@ function LandingPage() {
             src={Group2}
             alt="Second slide"
             />
+            <Carousel.Caption>
+            <Button variant="success" type="submit" className="shadow-sm fw-bold px-5" href="/form-user">
+            +  Lapor Insiden
+            </Button>
+            </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <img
@@ -28,7 +40,11 @@ function LandingPage() {
             src={Group3}
             alt="Third slide"
             />
-
+            <Carousel.Caption>
+            <Button variant="success" type="submit" className="shadow-sm fw-bold px-5" href="/form-user">
+            +  Lapor Insiden
+            </Button>
+            </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
         </div>

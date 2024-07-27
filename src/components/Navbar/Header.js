@@ -26,7 +26,7 @@ const Header = () => {
                     <Nav.Link href="https://twitter.com" className="text-light fw-bold" ><i class="bi bi-twitter"></i></Nav.Link>
                     <Nav.Link href="https://youtube.com" className="text-light fw-bold" ><i class="bi bi-youtube"></i></Nav.Link>
             </Nav>
-                <Nav className="gap-5" >
+                <Nav className="gap-5 sec-two" >
                     <Nav.Link href="/" className="text-light fw-bold"><i class="bi bi-telephone"></i><span className="mx-3">1-500-699</span></Nav.Link>
                     <Nav.Link href="/" className="text-light fw-bold" ><i class="bi bi-calendar-event"></i><span className="mx-3">{currentTime.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
                     </Nav.Link>
